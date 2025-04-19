@@ -3,9 +3,9 @@ name: Build GKI - Release
 on:
   workflow_dispatch:
   push:
-    branches: ["rebase"]
+    branches: [ "lineage-22.2" ]
   pull_request:
-    branches: ["rebase"]
+    branches: [ "lineage-22.2" ]
 
 jobs:
   build:
